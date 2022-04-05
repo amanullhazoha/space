@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Container, Row } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 
-import classes from "../style/main-section.module.scss";
+import classes from "../style/scss/main-section.module.scss";
 import { getLaunchRockets } from "../home.actions";
 import Rocket from "./rocket.component";
 import Filterbar from "./filterbar.component";
@@ -19,14 +19,17 @@ const MainSection = () => {
 
     const handleSearch = (value) => {
         setSearchValue(value);
+        setPage({ ...page, activePage: 1 });
     }
 
     const handleFilterUpcoming = (event) => {
         setUpcoming(event.target.value);
+        setPage({ ...page, activePage: 1 });
     }
 
     const handleFilterLaunchYear = (event) => {
         setLaunchYear(event.target.value);
+        setPage({ ...page, activePage: 1 });
     }
 
     const handlePage = ( activePage ) => setPage({ ...page, activePage });

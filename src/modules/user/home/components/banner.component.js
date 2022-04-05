@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 
-import classes from "../style/banner.module.scss";
+import classes from "../style/scss/banner.module.scss";
 import astronaut from "../images/astronaut.png";
 import planet from "../images/planet.svg";
 import stella from "../images/stella.svg";

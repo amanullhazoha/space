@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-import classes from "../style/sass/header.module.scss";
+import classes from "../style/scss/header.module.scss";
 import logo from "../images/logo.svg";
 import { Link, NavLink } from "react-router-dom";
 

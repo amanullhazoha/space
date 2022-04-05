@@ -1,0 +1,111 @@
+#footer {
+  background: #18163B;
+  padding-top: 110px;
+}
+
+#footer #subscribe {
+  text-align: center;
+  margin-bottom: 82px;
+}
+
+#footer #subscribe .heading {
+  font-family: 'Russo One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+#footer #subscribe form {
+  width: 640px;
+  margin: 0 auto;
+}
+
+#footer #subscribe form input {
+  border: 2px solid #454466;
+  border-right: none;
+  width: 75%;
+  background: transparent;
+  padding: 15px 30px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 27px;
+  color: #ADB6CB;
+  text-shadow: 6px 16px 31px rgba(59, 88, 239, 0.15);
+  outline: none;
+}
+
+#footer #subscribe form button {
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 19px 40px;
+  background: transparent;
+  outline: none;
+  border: 2px solid transparent;
+  -o-border-image: linear-gradient(90deg, #6b1ef1 35%, #cb28e5 100%);
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(35%, #6b1ef1), to(#cb28e5));
+     border-image: linear-gradient(90deg, #6b1ef1 35%, #cb28e5 100%);
+  border-image-slice: 9;
+  border-style: solid;
+}
+
+#footer .footerBottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 50px;
+  padding-bottom: 44px;
+}
+
+#footer .footerBottom #logo {
+  font-family: 'Russo One', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+#footer .footerBottom #logo img {
+  width: 51px;
+  height: 45px;
+  margin-right: 10px;
+}
+
+#footer .footerBottom p {
+  color: #DADADA;
+  font-size: 18px;
+  color: #6E7C9D;
+}
+
+#footer .footerBottom .socailIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#footer .footerBottom .socailIcons li {
+  font-size: 24px;
+  margin-left: 51px;
+}
+
+#footer .footerBottom .socailIcons li a {
+  color: #ABABAB;
+}
+/*# sourceMappingURL=footer.module.css.map */

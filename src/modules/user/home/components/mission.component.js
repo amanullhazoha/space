@@ -1,6 +1,6 @@
 import { Col } from "react-bootstrap";
 
-import classes from "../style/mission.module.scss";
+import classes from "../style/scss/mission.module.scss";
 
 const Mission = ({ id, image, missionName, describe }) => {
     return (

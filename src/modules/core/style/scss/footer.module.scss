@@ -1,0 +1,96 @@
+#footer{
+    background: #18163B;
+    padding-top: 110px;
+
+    #subscribe{
+        text-align: center;
+        margin-bottom: 82px;
+
+        .heading{
+            font-family: 'Russo One', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 72px;
+            color: #fff;
+            margin-bottom: 50px;
+        }
+
+        form{
+            width: 640px;
+            margin: 0 auto;
+
+            input {
+                border: 2px solid #454466;
+                border-right: none;
+                width: 75%;
+                background: transparent;
+                padding: 15px 30px;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 17px;
+                line-height: 27px;
+                color: #ADB6CB;
+                text-shadow: 6px 16px 31px rgba(59, 88, 239, 0.15);
+                outline: none;
+            }
+
+            button{
+                color: #fff;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                padding: 19px 40px;
+                background: transparent;
+                outline: none;
+                border: 2px solid transparent;
+                border-image: linear-gradient(90deg, rgba(107,30,241,1) 35%, rgba(203,40,229,1) 100%);
+                border-image-slice: 9;
+                border-style: solid;
+            }
+        }
+    }
+
+    .footerBottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 44px;
+
+        #logo{
+            font-family: 'Russo One', sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            color: #fff;
+    
+            img{
+                width: 51px;
+                height: 45px;
+                margin-right: 10px;
+            }
+        }
+
+        p{
+            color: #DADADA;
+            font-size: 18px;
+            color: #6E7C9D;
+        }
+
+        .socailIcons{
+            display: flex;
+
+            li{
+                font-size: 24px;
+                margin-left: 51px;
+
+                a{
+                    color: #ABABAB;
+                }
+            }
+        }
+    }
+}

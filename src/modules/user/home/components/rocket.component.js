@@ -1,6 +1,6 @@
 import { Col } from "react-bootstrap";
 
-import classes from "../style/rocket.module.scss";
+import classes from "../style/scss/rocket.module.scss";
 
 const Rocket = ({ rocketImage, rocketName,rocketType, launchYear, upComing }) => {
     return (

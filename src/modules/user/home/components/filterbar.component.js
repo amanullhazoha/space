@@ -1,6 +1,6 @@
 import { Formik, Form, Field } from "formik";
 
-import classes from "../style/filterbar.module.scss";
+import classes from "../style/scss/filterbar.module.scss";
 
 const LAUNCH_YEARS = ["All", "Less Than 1990", "1991-1995", "1996-2000", "2001-2005", "2006-2010", "2011-2015", "2016-2020", "Greater Than 2020" ]
 

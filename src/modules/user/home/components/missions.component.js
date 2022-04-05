@@ -1,6 +1,6 @@
 import { Container, Row } from "react-bootstrap";
 
-import classes from "../style/missions.module.scss";
+import classes from "../style/scss/missions.module.scss";
 import mission1 from "../images/mission1.png";
 import mission2 from "../images/mission2.png";
 import mission3 from "../images/mission3.png";

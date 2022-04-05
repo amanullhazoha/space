@@ -1,5 +1,5 @@
 import { range } from "lodash";
-import classes from "../../style/sass/pagination.module.scss";
+import classes from "../../style/scss/pagination.module.scss";
 
 const Pagination = ({ totalItems, pageCount, activePage, onClickPage }) => {
     const totalPages = Math.ceil(totalItems / pageCount);
