@@ -1,6 +1,9 @@
+import "./style/sass/index.scss";
+import Header from "./components/header.component";
+
 const App = () => {
     return (
-        <h1>hello world</h1>
+        <Header />
     );
 }
  

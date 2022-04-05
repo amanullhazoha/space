@@ -1,0 +1,56 @@
+#header{
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 30px;
+
+    nav{
+        padding: 0;
+    }
+
+    #logo{
+        font-family: 'Russo One', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        color: #fff;
+
+        img{
+            width: 51px;
+            height: 45px;
+            margin-right: 10px;
+        }
+    }
+
+    ul{
+        align-items: center;
+
+        li{
+            margin-right: 62px;
+
+            a{
+                padding: 0;
+                color: #fff;
+
+                &:hover{
+                    color: #8C21ED;
+                }
+            }
+        }
+
+        button {
+            background: transparent;
+            font-size: 16px;
+            color: #fff;
+            padding: 15px 40px;
+            border: 2px solid transparent;
+            border-image: linear-gradient(90deg, rgba(107,30,241,1) 35%, rgba(203,40,229,1) 100%);
+            border-image-slice: 9;
+            border-style: solid;
+            outline: none;
+        }
+    }
+}
