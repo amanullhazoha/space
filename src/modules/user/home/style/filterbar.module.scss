@@ -1,0 +1,80 @@
+.filterbar{
+    background: #2D2853;
+    padding: 18px 19px 16px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ABABAB;
+    margin-bottom: 41px;
+
+    .filter{
+        display: flex;
+        align-items: center;
+
+        label{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            margin-right: 47px;
+        }
+
+        .filterUpcoming{
+            border-right: 2px solid #ABABAB;
+            padding-right: 50px;
+        }
+
+        .filterYear{
+            label{
+                margin-right: 36px;
+                margin-left: 50px;
+            }
+
+            .selectYear{
+                width: 135px;
+            }
+        }
+
+        select{
+            background: transparent;
+            color: #DADADA;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            border: none;
+            outline: none;
+
+            option{
+                text-transform: capitalize;
+                color: #2D2853;
+            }
+        }
+    }
+
+    .search {
+        input{
+            background: #2D2853;
+            color: #DADADA;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            border: 1.5px solid #DADADA;
+            border-right: none;
+            padding: 22px 11px;
+            text-align: left;
+            padding: 7px 10px;
+            outline: none;
+        }
+
+        button{
+            font-size: 16px;
+            background: #10013F;
+            border: 1.5px solid #DADADA;
+            padding: 7px 35px;
+            color:#fff;
+            outline: none;
+        }
+    }
+}
