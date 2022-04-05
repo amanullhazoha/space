@@ -1,4 +1,5 @@
 import Banner from "./banner.component";
+import MainSection from "./main-section.component";
 import Missions from "./missions.component";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
         <>
             <Banner />
             <Missions />
+            <MainSection />
         </>
     );
 }

@@ -1,0 +1,30 @@
+.content{
+    background: #10013F;
+    padding: 33px;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    height: 395px;
+
+    img{
+        height: 125px;
+    }
+
+    .title{
+        font-family: 'Russo One', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        color: #fff;
+        margin-top: 34px;
+        margin-bottom: 28px;
+    }
+
+    p{
+        font-size: 18px;
+        line-height: 27px;
+        color: #DADADA;
+        margin-bottom: 10px;
+    }
+}
