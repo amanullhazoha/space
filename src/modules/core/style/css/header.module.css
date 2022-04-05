@@ -53,7 +53,7 @@
   background: transparent;
   font-size: 16px;
   color: #fff;
-  padding: 15px 40px;
+  padding: 10px 40px;
   border: 2px solid transparent;
   -o-border-image: linear-gradient(90deg, #6b1ef1 35%, #cb28e5 100%);
      border-image: -webkit-gradient(linear, left top, right top, color-stop(35%, #6b1ef1), to(#cb28e5));
@@ -61,5 +61,11 @@
   border-image-slice: 9;
   border-style: solid;
   outline: none;
+}
+
+@media screen and (max-width: 1440px) {
+  #header ul li {
+    margin-right: 40px;
+  }
 }
 /*# sourceMappingURL=header.module.css.map */

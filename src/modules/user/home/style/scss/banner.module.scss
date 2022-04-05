@@ -3,7 +3,6 @@
     padding-bottom: 45px;
     position: relative;
     z-index: 999;
-    height: 1000px;
     background-position: center;
     background-size: cover;
 
@@ -71,5 +70,36 @@
             top: 330px;
             right: 10px;
         }
+    }
+
+    @media screen and (max-width: 1440px) {
+        padding-top: 0px;
+        
+        .bannerContent{
+            padding-top: 175px;
+
+            h1{
+                font-size: 50px;
+                line-height: 50px;
+                margin-bottom: 30px;
+            }
+
+            p{
+                font-size: 20px;
+                padding-right: 100px;
+                margin-bottom: 30px;
+            }
+
+            button{
+                padding: 15px 75px;
+            }
+        }
+
+        .content{
+            .astronaut{
+                margin-top: 85px;
+            }
+        }
+
     }
 }

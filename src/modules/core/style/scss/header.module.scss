@@ -45,12 +45,20 @@
             background: transparent;
             font-size: 16px;
             color: #fff;
-            padding: 15px 40px;
+            padding: 10px 40px;
             border: 2px solid transparent;
             border-image: linear-gradient(90deg, rgba(107,30,241,1) 35%, rgba(203,40,229,1) 100%);
             border-image-slice: 9;
             border-style: solid;
             outline: none;
+        }
+    }
+
+    @media screen and (max-width: 1440px ){
+        ul{
+            li{
+                margin-right: 40px;
+            }
         }
     }
 }
