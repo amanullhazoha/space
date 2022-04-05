@@ -1,3 +1,3 @@
-import { Home } from "./home";
+import { Home, homeReducer } from "./home";
 
-export { Home };
+export { Home, homeReducer };

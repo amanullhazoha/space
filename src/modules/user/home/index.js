@@ -1,3 +1,4 @@
 import Home from "./components/home.component";
+import homeReducer from "./home.reducer";
 
-export { Home };
+export { Home, homeReducer };
