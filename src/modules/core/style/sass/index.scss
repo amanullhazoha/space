@@ -18,6 +18,12 @@ ul, p{
     padding: 0;
 }
 
+button , p, span {
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+}
+
 .activePage{
     color: #ffffff;
 }

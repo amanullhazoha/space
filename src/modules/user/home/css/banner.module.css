@@ -1,0 +1,81 @@
+#banner {
+  padding-top: 105px;
+  padding-bottom: 45px;
+  position: relative;
+  z-index: 999;
+  height: 1000px;
+  background-position: center;
+  background-size: cover;
+}
+
+#banner .bannerContent {
+  padding-top: 115px;
+}
+
+#banner .bannerContent .stella {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #090909;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 32px;
+  padding: 15px 19px 16px 20px;
+  width: 309px;
+}
+
+#banner .bannerContent .stella span {
+  font-size: 22px;
+  margin-left: 12px;
+  background: linear-gradient(95.79deg, #2317FA -33.63%, #D529E4 97.49%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 6px 16px 31px rgba(59, 88, 239, 0.15);
+}
+
+#banner .bannerContent h1 {
+  color: #fff;
+  font-family: 'Russo One', sans-serif;
+  font-size: 82.6667px;
+  font-weight: 400;
+  line-height: 100px;
+  margin-bottom: 33px;
+}
+
+#banner .bannerContent p {
+  color: #DADADA;
+  font-size: 22px;
+  line-height: 33px;
+  margin-bottom: 50px;
+  padding-right: 66px;
+}
+
+#banner .bannerContent button {
+  background: linear-gradient(95.48deg, #2317FA -1.25%, #D529E4 97.48%);
+  -webkit-box-shadow: 6px 16px 31px 8px rgba(59, 88, 239, 0.15);
+          box-shadow: 6px 16px 31px 8px rgba(59, 88, 239, 0.15);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  padding: 22px 77px;
+}
+
+#banner .content {
+  position: relative;
+}
+
+#banner .content .astronaut {
+  margin-top: 50px;
+  margin-left: -25px;
+}
+
+#banner .content .planet {
+  position: absolute;
+  top: 330px;
+  right: 10px;
+}
+/*# sourceMappingURL=banner.module.css.map */
