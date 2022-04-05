@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAA;EACP,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,KAAK,EAAE,wBAAuB;EAC9B,UAAU,EAAE,IAAI;CASnB;;AAbD,AAMI,WANO,CAMP,EAAE,CAAA;EACE,WAAW,EAAE,IAAI;CAKpB;;AAZL,AASQ,WATG,CAMP,EAAE,AAGG,YAAY,CAAA;EACT,WAAW,EAAE,CAAC;CACjB",
+    "sources": [
+        "../sass/pagination.module.scss"
+    ],
+    "names": [],
+    "file": "pagination.module.css"
+}

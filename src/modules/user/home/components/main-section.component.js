@@ -6,6 +6,7 @@ import classes from "../style/main-section.module.scss";
 import { getLaunchRockets } from "../home.actions";
 import Rocket from "./rocket.component";
 import Filterbar from "./filterbar.component";
+import Pagination from "../../../core/components/common/pagination.component";
 
 const MainSection = () => {
     const dispatch = useDispatch();
@@ -13,6 +14,7 @@ const MainSection = () => {
     const [searchValue, setSearchValue] = useState("");
     const [upcoming, setUpcoming] = useState("no");
     const [launchYear, setLaunchYear] = useState("All");
+    const [page, setPage] = useState({ activePage: 1, pageCount: 8 })
     const launchRockets = useSelector(state => state.homeReducer.launchRockets);
 
     const handleSearch = (value) => {
@@ -26,6 +28,8 @@ const MainSection = () => {
     const handleFilterLaunchYear = (event) => {
         setLaunchYear(event.target.value);
     }
+
+    const handlePage = ( activePage ) => setPage({ ...page, activePage });
 
     const searchingData = () => {
         if(searchValue) {
@@ -62,12 +66,19 @@ const MainSection = () => {
         return filterYear();
     }
 
+    const paginate = (datas) => {
+        const { activePage, pageCount } = page;
+        const start = (activePage - 1) * pageCount;
+        return datas.slice(start, start + pageCount);
+    }
+
     useEffect(() => {
         dispatch(getLaunchRockets())
     }, [])
 
     const searchedData = searchingData();
     const filteredData = filteringData(searchedData);
+    const paginatedData = paginate(filteredData);
 
     return (
         <main id={classes.mainSection}>
@@ -79,7 +90,7 @@ const MainSection = () => {
                 />
 
                 <Row>
-                    {filteredData.map(launchRocket => (
+                    {paginatedData.map(launchRocket => (
                         <Rocket 
                             key={launchRocket.flight_number}
                             rocketImage={launchRocket.links.mission_patch_small}
@@ -90,6 +101,13 @@ const MainSection = () => {
                         />
                     ))}
                 </Row>
+
+                <Pagination 
+                    activePage={page.activePage}
+                    pageCount={page.pageCount}
+                    totalItems={filteredData.length}
+                    onClickPage={handlePage}
+                />
             </Container>
         </main>
     );
