@@ -9,6 +9,7 @@
 
 #header nav {
   padding: 0;
+  position: relative;
 }
 
 #header #logo {
@@ -30,26 +31,26 @@
   margin-right: 10px;
 }
 
-#header ul {
+#header .menu ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-#header ul li {
+#header .menu ul li {
   margin-right: 62px;
 }
 
-#header ul li a {
+#header .menu ul li a {
   padding: 0;
   color: #fff;
 }
 
-#header ul li a:hover {
+#header .menu ul li a:hover {
   color: #8C21ED;
 }
 
-#header ul button {
+#header .menu ul button {
   background: transparent;
   font-size: 16px;
   color: #fff;
@@ -63,9 +64,45 @@
   outline: none;
 }
 
+#header .toggler {
+  display: none;
+  background: transparent;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 32px;
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
+
 @media screen and (max-width: 1440px) {
-  #header ul li {
+  #header .menu ul li {
     margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #header .menu {
+    width: 100%;
+    background: #000;
+    padding: 20px 30px;
+    margin-top: 10px;
+  }
+  #header .menu ul {
+    display: block;
+  }
+  #header .menu ul li {
+    margin-top: 20px;
+  }
+  #header .menu ul li:first-child {
+    margin-top: 0;
+  }
+  #header .menu ul button {
+    margin-top: 20px;
+  }
+  #header .toggler {
+    display: block;
   }
 }
 /*# sourceMappingURL=header.module.css.map */

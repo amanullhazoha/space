@@ -90,6 +90,90 @@
                 a{
                     color: #ABABAB;
                 }
+
+                &:first-child{
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+    
+    @media screen and(max-width: 1199px) {
+        padding-top: 60px;
+
+        #subscribe{
+            margin-bottom: 40px;
+
+            .heading{
+                font-size: 45px;
+                line-height: 45px;
+                margin-bottom: 30px;
+            }
+
+            form{
+                width: 500px;
+
+                input{
+                    padding: 5px 10px;
+                    font-size: 16px;
+                }
+
+                button{
+                    padding: 9px 20px;
+                }
+            }
+        }
+    }
+
+    @media screen and(max-width: 767px) {
+        padding-top: 40px;
+
+        #subscribe{
+            .heading{
+                font-size: 38px;
+                margin-bottom: 20px;
+            }
+            form{
+                width: 100%;
+                padding: 0 10px;
+
+                input{
+                    width: 60%
+                };
+            }
+        }
+
+        .footerBottom{
+            display: contents;
+
+            #logo{
+                display: contents;
+            }
+
+            p{
+                text-align: center;
+                margin-top: 15px;
+                font-size: 17px;
+            }
+
+            .socailIcons{
+                float: right;
+                li{
+                    margin-left: 25px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    @media screen and(max-width: 425px) {
+        #subscribe{
+            form{
+                padding: 0;
+                
+                button{
+                    padding: 9px 10px;
+                }
             }
         }
     }

@@ -3,4 +3,11 @@
   padding-top: 120px;
   padding-bottom: 70px;
 }
+
+@media screen and (max-width: 1199px) {
+  #mainSection {
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
+}
 /*# sourceMappingURL=main-section.module.css.map */

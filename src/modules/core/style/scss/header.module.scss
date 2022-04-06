@@ -8,6 +8,7 @@
 
     nav{
         padding: 0;
+        position: relative;
     }
 
     #logo{
@@ -25,40 +26,85 @@
         }
     }
 
-    ul{
-        align-items: center;
-
-        li{
-            margin-right: 62px;
-
-            a{
-                padding: 0;
+    .menu{
+        ul{
+            align-items: center;
+    
+            li{
+                margin-right: 62px;
+    
+                a{
+                    padding: 0;
+                    color: #fff;
+    
+                    &:hover{
+                        color: #8C21ED;
+                    }
+                }
+            }
+    
+            button {
+                background: transparent;
+                font-size: 16px;
                 color: #fff;
+                padding: 10px 40px;
+                border: 2px solid transparent;
+                border-image: linear-gradient(90deg, rgba(107,30,241,1) 35%, rgba(203,40,229,1) 100%);
+                border-image-slice: 9;
+                border-style: solid;
+                outline: none;
+            }
+        }
+    }
 
-                &:hover{
-                    color: #8C21ED;
+    .toggler{
+        display: none;
+        background: transparent;
+        color: #fff;
+        border: none;
+        outline: none;
+        font-size: 32px;
+        position: absolute;
+        top: 5px;
+        right: 0;
+    }
+
+    @media screen and (max-width: 1440px ){
+        .menu{
+            ul{
+                li{
+                    margin-right: 40px;
+                }
+            }
+        }
+    }
+
+    @media screen and(max-width: 767px) {
+        .menu{
+            width: 100%;
+            background: #000;
+            padding: 20px 30px;
+            margin-top: 10px;
+
+            ul{
+                display: block;
+    
+                li{
+                    margin-top: 20px;
+                     
+                    &:first-child{
+                        margin-top: 0;
+                    }
+                }
+
+                button{
+                    margin-top: 20px;
                 }
             }
         }
 
-        button {
-            background: transparent;
-            font-size: 16px;
-            color: #fff;
-            padding: 10px 40px;
-            border: 2px solid transparent;
-            border-image: linear-gradient(90deg, rgba(107,30,241,1) 35%, rgba(203,40,229,1) 100%);
-            border-image-slice: 9;
-            border-style: solid;
-            outline: none;
-        }
-    }
-
-    @media screen and (max-width: 1440px ){
-        ul{
-            li{
-                margin-right: 40px;
-            }
+        .toggler{
+            display: block;
         }
     }
 }

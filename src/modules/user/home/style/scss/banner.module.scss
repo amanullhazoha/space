@@ -72,7 +72,7 @@
         }
     }
 
-    @media screen and (max-width: 1440px) {
+    @media screen and(max-width: 1400px) {
         padding-top: 0px;
         
         .bannerContent{
@@ -86,7 +86,6 @@
 
             p{
                 font-size: 20px;
-                padding-right: 100px;
                 margin-bottom: 30px;
             }
 
@@ -101,5 +100,73 @@
             }
         }
 
+    }
+
+    @media screen and(max-width: 1199px) {
+        .content{
+            .planet{
+                top: 280px;
+            }
+        }
+    }
+
+    @media screen and(max-width: 1024px) {
+        .bannerContent{
+            .stella{
+                padding: 10px 15px;
+                margin-bottom: 25px;
+
+                span{
+                    font-size: 20px;
+                }
+            }
+
+            h1{
+                font-size: 45px;
+                line-height: 50px;
+            }
+
+            p{
+                font-size: 16px;
+                padding-right: 40px;
+                line-height: 27px;
+            }
+
+            button{
+                font-size: 16px;
+                padding: 10px 50px;
+            }
+        }
+
+        .content{
+            .planet{
+                top: 280px;
+            }
+        }
+    }
+
+    @media screen and(max-width: 1024px) {
+        .content{
+            .planet{
+                top: 230px;
+                right: 0;
+            }
+        }
+    }
+
+    @media screen and(max-width: 767px) {
+        .bannerContent{
+            .stella{
+                width: 260px;
+
+                span{
+                    font-size: 16px;
+                }
+            }
+
+            h1{
+                font-size: 38px;
+            }
+        }
     }
 }

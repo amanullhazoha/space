@@ -21,7 +21,7 @@ const Banner = () => {
                         <button type="button">GET START</button>
                     </Col>
                     
-                    <Col md={7} className={classes.content}>
+                    <Col md={7} className={`${classes.content} d-none d-md-block`}>
                         <img src={astronaut} alt="Astronaut" className={`img-fluid ${classes.astronaut}`} />
                         <img src={planet} alt="Planet" className={`img-fluid ${classes.planet}`} />
                     </Col>

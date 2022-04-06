@@ -28,4 +28,20 @@
   color: #DADADA;
   margin-bottom: 10px;
 }
+
+@media screen and (max-width: 1199px) {
+  .content {
+    padding: 30px 20px;
+    height: 350px;
+  }
+  .content .title {
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .content p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
 /*# sourceMappingURL=rocket.module.css.map */

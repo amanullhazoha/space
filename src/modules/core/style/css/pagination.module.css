@@ -16,4 +16,10 @@
 .pagination li:first-child {
   margin-left: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .pagination li {
+    margin-left: 8px;
+  }
+}
 /*# sourceMappingURL=pagination.module.css.map */

@@ -27,16 +27,13 @@ const Footer = () => {
                     </Formik>
                 </section>
 
-                <div className={classes.footerBottom}>
-                    <Link id={classes.logo} to="/">
+                <div className={`${classes.footerBottom}`}>
+                    <Link id={classes.logo} className="order-md-1" to="/">
                         <img src={logo} alt="logo" className="img-fluid" />
                         SPACE
                     </Link>
 
-                    <p>Space 2020, All rights reserved</p>
-
-
-                    <ul className={classes.socailIcons}>
+                    <ul className={`${classes.socailIcons} order-md-3`}>
                         <li>
                             <a href="https://twitter.com" target="_blank">
                                 <i className="fab fa-twitter" />
@@ -55,6 +52,9 @@ const Footer = () => {
                             </a>
                         </li>
                     </ul>
+
+                    <p className="order-md-2">Space 2020, All rights reserved</p>
+
                 </div>
             </Container>
         </footer>

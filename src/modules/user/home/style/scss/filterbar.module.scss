@@ -77,4 +77,77 @@
             outline: none;
         }
     }
+
+    @media screen and(max-width: 1199px) {
+        display: block;
+
+        .filter{
+            justify-content: space-between;
+            margin-bottom: 35px;
+
+            .filterUpcoming{
+                border: none;
+            }
+        }
+
+        .search{
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    @media screen and(max-width: 767px) {
+        .filter{
+            display: block;
+
+            .filterUpcoming{
+                padding: 0;
+            }
+
+            .filterYear{
+                margin-top: 20px;
+
+                label{
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+
+    @media screen and(max-width: 450px) {
+        padding: 15px;
+
+        .filter{
+
+            .filter{
+                label{
+                    margin-left: 20px;
+                    padding: 0;
+                }
+            }
+
+            label{
+                font-size: 16px;
+                margin-right: 20px;
+            }
+            
+            select{
+                font-size: 16px;
+                width: 120px !important;
+            }
+        }
+
+        .search{
+            form{
+                input{
+                    padding: 5px 5px;
+                    width: 150px;
+                }
+
+                button{
+                    padding: 5px 10px;
+                }
+            }
+        }
+    }
 }
