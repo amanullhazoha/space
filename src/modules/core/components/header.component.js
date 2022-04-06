@@ -17,7 +17,7 @@ const Header = () => {
                         SPACE
                     </Link>
             
-                    <div className={classes.menu} style={{ display: `${toggler ? "block" : "none"}`}}>
+                    <div className={`${classes.menu} ${toggler ? "activeMenu" : "hideMenu"}`}>
                         <ul className={`nav`}>
                             <li className="nav-item">
                                 <NavLink 

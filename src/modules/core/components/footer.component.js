@@ -14,8 +14,9 @@ const Footer = () => {
                     <Formik
                         initialValues={{email: ""}}
                         onSubmit={(value, action) => {
-                            console.log(value);
+                            alert(`${value.email} Submit`);
                             action.setSubmitting(false);
+                            action.resetForm();
                         }}
                     >
                         {formikProps => (

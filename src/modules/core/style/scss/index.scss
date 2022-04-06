@@ -31,3 +31,13 @@ button , p, span {
 .active{
     color: #8C21ED !important;
 }
+
+@media screen and(max-width: 767px) {
+    .activeMenu{
+        display: block;
+    }
+
+    .hideMenu{
+        display: none;
+    }
+}
